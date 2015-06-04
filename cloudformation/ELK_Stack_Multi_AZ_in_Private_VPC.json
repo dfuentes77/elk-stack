@@ -151,7 +151,7 @@
                     }
                 ],
                 "HealthCheck": {
-                    "Target": "HTTP:5601/__es/",
+                    "Target": "HTTP:5601/#/settings/about?_g=()",
                     "Timeout": "10",
                     "Interval": "20",
                     "UnhealthyThreshold": "10",
