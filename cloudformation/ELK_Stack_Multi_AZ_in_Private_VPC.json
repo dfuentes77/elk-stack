@@ -266,7 +266,7 @@
                             "wget -O /etc/logstash/conf.d/logstash-indexer.conf https://raw.githubusercontent.com/dfuentes77/elk-stack/master/config/logstash-indexer.conf",
                             "sed -i -e 's,@@ELASTICSEARCH,localhost,g' /etc/logstash/conf.d/logstash-indexer.conf",
 
-                            "/usr/share/elasticsearch/bin/plugin --install elasticsearch/elasticsearch-cloud-aws/2.1.1",
+                            "/usr/share/elasticsearch/bin/plugin --install elasticsearch/elasticsearch-cloud-aws/2.4.2",
                             "/usr/share/elasticsearch/bin/plugin --install mobz/elasticsearch-head",
                             "/usr/share/elasticsearch/bin/plugin --install lukas-vlcek/bigdesk",
                             "/usr/share/elasticsearch/bin/plugin --install karmi/elasticsearch-paramedic",
